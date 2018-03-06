@@ -2,7 +2,6 @@
 
 Donald Meek
 2-22-2016
-SP16-CMPSCI4300-001
 
 This project creates a population of random bit strings where the user defines the population size and the length of the bit strings. 
 The project then gets two children by tournament selection from two sets of two parents. Next, the algorithm applies uniform crossover
