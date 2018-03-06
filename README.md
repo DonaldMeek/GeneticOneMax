@@ -1,1 +1,3 @@
 # GeneticOneMax
+
+The GeneticOneMax project creates a population of random bit strings where the user defines the population size and the length of the bit strings. The project then selects two children by tournament selection from two sets of two parents. Next, the algorithm applies uniform crossover with a probability of .6, then mutates each individual bit in the children with probability of 1/n. The most fit parent is added to the child population, which then replaces the parent population. The program finds and displays statistics on the best, worst, and average fitness for the generation. If an optimal bit string (with all 1s) is found, or if average fitness does not improve, the program ends. 
